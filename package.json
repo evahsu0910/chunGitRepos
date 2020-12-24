@@ -1,0 +1,35 @@
+{
+  "name": "koa-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NoobTW/koa-api-example.git"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "NoobTW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoobTW/koa-example/issues"
+  },
+  "homepage": "https://github.com/NoobTW/koa-example#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-mongo": "^1.8.2",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "mongodb": "^3.6.3",
+    "supertest": "^6.0.1"
+  }
+}
